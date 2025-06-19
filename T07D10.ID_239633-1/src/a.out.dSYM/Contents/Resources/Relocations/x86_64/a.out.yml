@@ -1,0 +1,15 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     a.out
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003820, symSize: 0x20 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003820, symSize: 0x20 }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _modes, symObjAddr: 0x20, symBinAddr: 0x100003840, symSize: 0xC0 }
+  - { offsetInCU: 0x9B, offset: 0x9B, size: 0x8, addend: 0x0, symName: _input_matrix_size, symObjAddr: 0xE0, symBinAddr: 0x100003900, symSize: 0xE0 }
+  - { offsetInCU: 0xED, offset: 0xED, size: 0x8, addend: 0x0, symName: _input_matrix_static, symObjAddr: 0x1C0, symBinAddr: 0x1000039E0, symSize: 0xE0 }
+  - { offsetInCU: 0x177, offset: 0x177, size: 0x8, addend: 0x0, symName: _output_static, symObjAddr: 0x2A0, symBinAddr: 0x100003AC0, symSize: 0xD0 }
+  - { offsetInCU: 0x1EF, offset: 0x1EF, size: 0x8, addend: 0x0, symName: _static_matrix, symObjAddr: 0x370, symBinAddr: 0x100003B90, symSize: 0xC0 }
+  - { offsetInCU: 0x245, offset: 0x245, size: 0x8, addend: 0x0, symName: _dynamic1_matrix, symObjAddr: 0x430, symBinAddr: 0x100003C50, symSize: 0xB0 }
+  - { offsetInCU: 0x2AF, offset: 0x2AF, size: 0x8, addend: 0x0, symName: _input_matrix_dyn1, symObjAddr: 0x4E0, symBinAddr: 0x100003D00, symSize: 0x1A0 }
+  - { offsetInCU: 0x355, offset: 0x355, size: 0x8, addend: 0x0, symName: _output_dynamic, symObjAddr: 0x680, symBinAddr: 0x100003EA0, symSize: 0xC6 }
+...
