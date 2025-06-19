@@ -1,0 +1,13 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     test
+relocations:
+  - { offsetInCU: 0xA8, offset: 0xA8, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AC1, symSize: 0x20D }
+  - { offsetInCU: 0x2D0, offset: 0x2D0, size: 0x8, addend: 0x0, symName: _gip, symObjAddr: 0x33D, symBinAddr: 0x100003DFE, symSize: 0x7E }
+  - { offsetInCU: 0x336, offset: 0x336, size: 0x8, addend: 0x0, symName: _lemniscata, symObjAddr: 0x258, symBinAddr: 0x100003D19, symSize: 0xE5 }
+  - { offsetInCU: 0x33E, offset: 0x33E, size: 0x8, addend: 0x0, symName: _gip, symObjAddr: 0x33D, symBinAddr: 0x100003DFE, symSize: 0x7E }
+  - { offsetInCU: 0x391, offset: 0x391, size: 0x8, addend: 0x0, symName: _agnesi, symObjAddr: 0x20D, symBinAddr: 0x100003CCE, symSize: 0x4B }
+  - { offsetInCU: 0x399, offset: 0x399, size: 0x8, addend: 0x0, symName: _lemniscata, symObjAddr: 0x258, symBinAddr: 0x100003D19, symSize: 0xE5 }
+  - { offsetInCU: 0x3C0, offset: 0x3C0, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003AC1, symSize: 0x20D }
+  - { offsetInCU: 0x3C8, offset: 0x3C8, size: 0x8, addend: 0x0, symName: _agnesi, symObjAddr: 0x20D, symBinAddr: 0x100003CCE, symSize: 0x4B }
+...
