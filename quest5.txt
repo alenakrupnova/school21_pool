@@ -1,0 +1,12 @@
+1. Вход в папки: cd src
+2. cd door_management_files
+3. cd door_configuration
+4. vi door_1.conf
+5. i = insert
+6. CLOSED -> OPEN
+7. Escape :wq
+8. cd .. до папки src
+9. touch quest5.txt и в него все записать и так же сохранить
+10. git add .
+11. git commit -m "Quest 5"
+12. git push
